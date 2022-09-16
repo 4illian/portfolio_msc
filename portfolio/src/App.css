@@ -1,0 +1,33 @@
+@font-face {
+    font-family: FiraMono;
+    src: url("./assets/fonts/fira_mono/FiraMono-Regular.ttf");
+}
+
+@font-face {
+    font-family: MBF;
+    src: url("./assets/fonts/MBF/MBFFutureVoyage.ttf");
+}
+
+@font-face {
+    font-family: FiraMono-Bold;
+    src: url("./assets/fonts/fira_mono/FiraMono-Bold.ttf");
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #ecf0f1;
+    font-family: FiraMono, monospace;
+    background-color: #00001a;
+    /*background-color: #302e2d;*/
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family: FiraMono-Bold;
+}
